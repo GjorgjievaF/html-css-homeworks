@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise</title>
+  </head>
+  <body>
+    <h2><b>Student exercise</b></h2>
+
+    <form>
+      <fieldset>
+        <legend>Testform</legend>
+        <label for="username">Enter name</label>
+        <input
+          type="text"
+          placeholder="Name..."
+          id="username"
+          name="username"
+        />
+
+        <br />
+
+        <label for="userpassword">Enter password</label>
+        <input type="password" placeholder="Password..." id="userpassword" />
+
+        <br />
+
+        <h3>Gender</h3>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="pickgender" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="pickgender" />
+
+        <br />
+        <br />
+
+        <label for="continent">Continent</label>
+        <select id="continent">
+          <option selected="selected" disabled="disabled">
+            Pleace select...
+          </option>
+          <option>Europe</option>
+          <option>Africa</option>
+          <option>Asia</option>
+          <option>North America</option>
+          <option>Australia</option>
+          <option>South America</option>
+          <option>Antarctica</option>
+        </select>
+
+        <br />
+        <br />
+
+        <h4>Meals</h4>
+
+        <label for="breakfast">breakfast</label>
+        <input type="checkbox" id="breakfast" value="breakfast" />
+
+        <label for="lunch">lunch</label>
+        <input type="checkbox" id="lunch" value="lunch" />
+
+        <label>dinner</label>
+        <input type="checkbox" id="dinner" value="dinner" />
+
+        <h4>Remark</h4>
+        <textarea></textarea>
+
+        <button>Send</button>
+        <button>Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
