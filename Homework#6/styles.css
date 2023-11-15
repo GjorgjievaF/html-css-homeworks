@@ -1,0 +1,46 @@
+h1 {
+    color: brown;
+    font-style: oblique;
+}
+
+p {
+    color: red;
+    font-style: oblique;
+}
+h4 {
+    color: brown;
+    font-style: italic;
+}
+
+.seasons {
+    color: coral;
+    background-color: red;
+}
+
+.numbers {
+    color: coral;
+    background-color: red;
+
+   
+}
+
+.date {
+    color: crimson;
+    font-style: italic;
+    
+}
+
+.filming {
+    color: firebrick;
+    font-style: italic;
+}
+
+.thrones {
+    color: tomato;
+    font-style: italic;
+}
+
+.sevenkingdoms
+{
+    color: brown;
+}

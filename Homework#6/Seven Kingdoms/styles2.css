@@ -1,0 +1,27 @@
+h1 {
+    color: gray;
+   
+}
+
+h4 {
+    color: dimgray;
+    font-style: italic;
+}
+
+p {
+    color: green;
+    background-color: gray;
+}
+
+#kingdoms {
+    color: darkslategray;
+    font-style: italic;
+}
+
+#intro {
+    color: darkolivegreen;
+}
+
+#gameofthrones {
+    color: red;
+}

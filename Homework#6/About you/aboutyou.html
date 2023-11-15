@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About you</title>
+    <link rel="stylesheet" type="text/css" href="./styles3.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>About you</h1>
+      <ul>
+        <a href="../homeWork.html"><li id="aboutyou">Home</li></a>
+        <a href="../Seven Kingdoms/sevenkingdoms.html"
+          ><li id="aboutyou">Seven Kingdoms</li></a
+        >
+        <a href="#"><li id="aboutyou">About you</li></a>
+      </ul>
+    </header>
+
+    <main>
+      <h4>Please answer the following questions.</h4>
+      
+      <form>
+        <fieldset class="question">
+          <legend class="question">Questions:</legend>
+          <label for="username">First Name:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="First Name"
+          />
+        
+          <br />
+          <br />
+          <section>
+          <label for="secondname">Second Name:</label>
+          <input
+            type="text"
+            id="secondname"
+            name="secondname"
+            placeholder="Second Name"
+          />
+        
+
+          <br />
+          <br />
+          
+
+          <label for="userage">Age:</label>
+          <input type="number" id="userage" name="userage" />
+
+          <h4>Have you watched Game of Thrones?</h4>
+          <label for="answer">Yes</label>
+          <input type="radio" id="answer" name="answer" />
+          
+          <br />
+          <label for="answer">No</label>
+          <input type="radio" id="answer" name="answer" />
+
+        
+          <h4>
+            If you pick the answer YES ,please answer the following questions.
+          </h4>
+          <h4>
+            Who is your favourite character in Game of Thrones? (you can pick
+            more than one character)
+          </h4>
+          <label for="johnsnow">John Snow</label>
+          <input type="checkbox" id="johnsnow" value="johnsnow" />
+          <br />
+          <label for="daenerys">Daenerys Targaryen</label>
+          <input type="checkbox" id="daenerys" value="daenerys" />
+          <br />
+          <label for="sansa">Sansa Stark</label>
+          <input type="checkbox" id="sansa" value="sansa" />
+          <br />
+          <label for="tyrion">Tyrion Lannister</label>
+          <input type="checkbox" id="tyrion" value="tyrion" />
+          <br />
+          <label for="arya">Arya Stark</label>
+          <input type="checkbox" id="arya" value="arya" />
+        
+
+        
+
+          <h4>What is your favourite Kingdom ?</h4>
+          <label>Pick one Kingdom:</label>
+          <select>
+            <option selected="selected" disabled="disabled">Select one</option>
+            <option>House of Stark of Winterfell</option>
+            <option>House Hoare of Harrenhal</option>
+            <option>House of Lannister of Casterly Rock</option>
+            <option>House of Durrandol od Storm End</option>
+            <option>House Arryn of the Eyrie</option>
+            <option>House Gardener of Highgarden</option>
+            <option>House of Martell of Sunspear</option>
+          </select>
+
+        
+          <br />
+          <br />
+
+          <section>
+
+          <label for="opinion">Yout opinion about the Game of Thrones. </label>
+          <textarea id="opinion" rows="10" cols="30"></textarea>
+        
+          <br />
+          <br />
+
+          <div>
+          <input type="submit" value="Submit" />
+          </div>
+
+        </fieldset>
+      
+      </form>
+
+    
+    </main>
+  </body>
+</html>

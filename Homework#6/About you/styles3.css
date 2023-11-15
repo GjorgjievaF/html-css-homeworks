@@ -1,0 +1,20 @@
+h1 {
+    color: brown;
+    font-style: italic;
+}
+
+#aboutyou {
+    color: crimson;
+}
+
+h4 {
+    color: gray;
+    font-style: italic;
+    font-size: 20px
+}
+
+.question {
+    color: darkcyan ;
+    background-color: wheat 
+    ;
+}
