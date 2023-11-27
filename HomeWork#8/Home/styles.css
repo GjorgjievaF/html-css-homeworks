@@ -1,0 +1,132 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+   background-image:url(../Game-of-Thrones-season-8-title-card-logo-header-1-850x560.webp);
+   background-size: cover;   
+}
+p{
+    color: red;
+}
+
+header{
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 2; 
+    background-color:red; 
+      
+    
+}
+h1{
+    color:  black;
+    font-style: italic;  
+   
+}
+
+
+h4{
+    color: red;
+    font-style: italic;
+    
+    
+    left: 46px;
+
+}
+
+#unorderl{
+    color:slategray ;
+    font-style: italic;
+    display: flex;
+    gap: 10px;
+}
+    
+.list {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+
+.list:visited {
+    color: yellow;
+}
+
+#navigation{
+    
+    height: 1500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#div1 {
+   
+    width: 30%;
+    height: 100%s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+#div2 {
+   
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+   
+
+}
+
+#table{
+    background-color: beige;
+    
+}	
+
+#backtotop{
+    color: red;
+}
+
+footer{
+    background-image: url(../350px-Drogon_a_hidden_agenda_by_christopherburdett.jpg);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    
+}
+#scheduale{
+    background-color: white;
+}
+
+#backTotop{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+   
+    
+
+
