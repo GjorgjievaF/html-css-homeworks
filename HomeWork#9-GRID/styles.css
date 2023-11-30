@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#conteiner{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 1fr 1fr 20%;
+    height: 100vh;
+    grid-template-areas: 
+    "header main"
+    "nav main"
+    "aside div "
+    ;
+}
+
+
+
+header{
+    
+
+    grid-area: header;
+   
+    
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+div{
+    grid-area: div;
+}
+
+
+
+#footer-one{
+    display: grid;
+    grid-template-columns: 1fr 10%;
+    grid-row: 5% 5%
+    ;
+    grid-template-areas: 
+    "footer section"
+    "footer section"
+    ;
+}
+
+
+
+
+
+
+#footer-two{
+    grid-area: footer;
+    background-color: bisque;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 3px 0px;
+    
+    
+}
+
+#header-one{
+    background-color: bisque;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px 8px 10px 3px;
+    
+}
+#main-one{
+    background-color: red;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px 3px 8px 0px;
+
+}
+
+#nav-one{
+    background-color: bisque;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px 8px 8px 3px;
+}
+
+#aside-one{
+    background-color: aqua;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 8px 3px 3px ;
+    
+}
+#section-one{
+    
+    background-color: bisque;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px 3px 10px 8px;
+}
+
+#section-two{
+    background-color: yellow;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px 3px 3px 8px;
+    
+    
+
+}
